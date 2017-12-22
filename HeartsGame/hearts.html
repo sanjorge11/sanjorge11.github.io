@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Text Hearts Players</title>
+<script src="jquery-3.2.1.js"></script>
+<script src="Card.js"></script>
+<script src="Hearts.js"></script>
+<script src="HeartsMatch.js"></script>
+<script src="TextPlayer.js"></script>
+<script src="DumbAI.js"></script>
+<script src="TextPlayerVsThreeDumbAI.js"></script>
+<link rel="stylesheet" type="text/css" href="TextPlayerVsThreeDumbAI.css">
+</head>
+
+<body>
+<h1>Hearts Match With Text Player Vs. Three DumbAIs</h1>
+
+<!-- Uncomment for KMP's version
+<div id="player_div">
+<div id="north_player">
+ 	<h3>North</h3>
+</div>
+</div> -->
+
+
+<div id="player-cards">
+  <div class="player-card" id="player-card1">
+	<h2 id="player-name"></h2>
+				
+				<h4 id="player-action1"></h4>
+				
+				<h4 id="player-score1">Score will be updated at end of game.</h4>
+  </div>
+  <div class="player-card" id="player-card2">
+	<h2 id="player-east">East</h2>
+	
+				<h4 id="player-action2"></h4>
+				
+				<h4 id="player-score2">Score will be updated at end of game.</h4>
+  </div>
+  <div id="map"></div>
+  <div class="player-card" id="player-card3">
+	<h2 id="player-south">South</h2>
+				
+				<h4 id="player-action3"></h4>
+				
+				<h4 id="player-score3">Score will be updated at end of game.</h4>
+  </div>
+  <div class="player-card" id="player-card4">
+	<h2 id="player-west">West</h2>
+				
+				<h4 id="player-action4"></h4>
+				
+				<h4 id="player-score4">Score will be updated at end of game.</h4>
+  	
+  </div>
+</div>
+
+<div id="bufferDiv"> BUFFER DIV </div>
+
+
+<div id="cards">
+
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+	<div class="card">
+	</div>
+
+</div>
+
+<button id="playButton" type="button">Play</button>
+
+<button id="passButton" type="button">Pass</button>
+<button id="clearButton" type="button">Clear</button>
+
+
+
+</body>
+</html>
