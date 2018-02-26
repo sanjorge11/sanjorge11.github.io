@@ -1,0 +1,200 @@
+body {
+  height:100%;
+  width:100%;
+  text-align: center;
+  /* background-color: #D3D3D3;
+  /* light gray */
+
+  background-image: url("https://opal.ils.unc.edu/~sanjorge/website/pictures/space.jpg");
+
+}
+
+#contactHeading {
+  color: white;
+}
+
+.activeClass {
+  color:#4B9CD3;
+}
+
+#home-bar {
+  height:60px;
+  display: flex;
+  justify-content: space-between;
+  width:98%;
+  background-color: blue;
+  border: solid thick white;
+}
+
+#class-links {
+  height:60px;
+  display: flex;
+  justify-content: space-around;
+  width:60%;
+  /* background-color: tan; */
+  border: solid thin white;
+  border-radius: 10px;
+
+
+  /* background-image: url("/Users/uncsupport/Downloads/space.jpg");
+  background-size: 400px 270px; */
+  background-color: #4d4d4d;
+}
+
+#class-links a {
+  color: white;
+}
+
+/* Bar of Links*/
+#home-bar div {
+    background-color: white;
+    border: solid thin black;
+    /* border-radius: 10px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#home-bar a:visited {
+  color: black;
+}
+
+.non-name-tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.non-name-tabs div {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+#home-bar .non-name-tabs div:hover {
+  background-color: #4B9CD3;
+  /* tar heel blue */
+}
+
+#home-bar .non-name-tabs div.active {
+  background-color: #4d4d4d;
+  /* dark gray */
+}
+
+#home-bar .non-name-tabs div.active h2 {
+  color : white;
+}
+
+div.name {
+  border-radius: 5px;
+}
+
+div.name {
+  line-height: 20px;
+}
+
+
+#home-bar h1 {
+  color : black;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+footer p {
+  color: white;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#text-container {
+  width: 70%;
+  background-color: #4B9CD3;
+  /* tarheel blue */
+  text-align: center;
+  border: solid thin white;
+}
+
+#inDiv-container {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#box1 {
+  padding-left: 200px;
+  width: 50%;
+}
+
+#box2 {
+  width: 50%;
+  padding-right: 100px;
+}
+
+#box2 p {
+  border: solid thin black;
+  padding: 10px;
+}
+
+#inlsPic-container {
+  align-items: center;
+}
+
+#box1_2 {
+  width: 50%;
+  padding-left: 250px;
+}
+
+
+#box2_2 {
+  width: 50%;
+  padding-right: 150px;
+}
+
+
+#box2_2 p {
+  border: solid thin black;
+  padding: 10px;
+}
+
+#long_explanation {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#resume {
+  color:blue;
+}
+
+#links { 
+	color: blue;
+}
+
+a h2 { 
+    font-family: 'Overpass Mono', monospace;
+}
+
+a h1 { 
+    font-family: 'Overpass Mono', monospace;
+}
+
+#home-bar div.name {
+	background:black; 
+}
+
+#home-bar div.name h1 { 
+	color: white;
+}
