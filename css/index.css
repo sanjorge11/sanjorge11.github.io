@@ -2,9 +2,6 @@ body {
   height:100%;
   width:100%;
   text-align: center;
-  /* background-color: #D3D3D3;
-  /* light gray */
-
   background-image: url("https://opal.ils.unc.edu/~sanjorge/website/pictures/space.jpg");
 
 }
@@ -31,13 +28,8 @@ body {
   display: flex;
   justify-content: space-around;
   width:60%;
-  /* background-color: tan; */
   border: solid thin white;
   border-radius: 10px;
-
-
-  /* background-image: url("/Users/uncsupport/Downloads/space.jpg");
-  background-size: 400px 270px; */
   background-color: #4d4d4d;
 }
 
@@ -126,7 +118,7 @@ footer p {
 }
 
 #text-container {
-  width: 70%;
+  width: 50%;
   background-color: #4B9CD3;
   /* tarheel blue */
   text-align: center;
