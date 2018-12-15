@@ -126,6 +126,7 @@ footer p {
   /* tarheel blue */
   text-align: center;
   border: solid thin white;
+  border-radius: 25px;
 }
 
 #inDiv-container {
