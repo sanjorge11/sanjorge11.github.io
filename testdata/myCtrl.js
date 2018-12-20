@@ -8,4 +8,6 @@ app.controller('myCtrl', function($scope, $http) {
         s.recordArray = response.data.records;
     });
 
+    console.log(s.recordArray); 
+
 });
